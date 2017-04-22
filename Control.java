@@ -24,8 +24,7 @@ public class Control {
 	
 
 	public static void main(String[] args) throws FileNotFoundException {
-		
-		
+	
 		
 		//set up GUI
 		JFrame.setDefaultLookAndFeelDecorated(true);
