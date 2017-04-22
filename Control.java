@@ -15,7 +15,7 @@
  *****************************/
 
 package com.assignment;
-import java.awt.Dimension;
+import java.io.FileNotFoundException;
 
 import javax.swing.JFrame;
 
@@ -23,13 +23,15 @@ import javax.swing.JFrame;
 public class Control {
 	
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		
+		
+		
+		//set up GUI
 		JFrame.setDefaultLookAndFeelDecorated(true);
 		GUI menu = new GUI();
 		menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		menu.pack();
-		menu.setSize(new Dimension(500, 300));
 		menu.setVisible(true);
 
 	}
