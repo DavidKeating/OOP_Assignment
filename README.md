@@ -1,2 +1,3 @@
 # OOP_Assignment
-Programming Assignment initial creation 
+
+Can now compare two files and detect curse words within the tweets.
